@@ -29,6 +29,7 @@ const InfographicsPanel = ({ data }) => {
         gridTemplateColumns: { xs: '1fr', md: '1fr 1fr' },
         gap: 2,
         height: '100%',
+        marginLeft: { xs: 0, md: '32px' },
       }}
     >
       <Card sx={{ backgroundColor: '#101522', color: 'white', minHeight: 200, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
